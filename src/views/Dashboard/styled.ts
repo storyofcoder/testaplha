@@ -53,7 +53,7 @@ export const PoweredByWrapper = styled(Flex)`
     transition: background-color 0.1s ease-in-out;
   }
   color: #808080;
-  font-family: Inter;
+  
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -76,7 +76,7 @@ export const BalanceSectionWrapper = styled(Box)`
 export const Heading = styled(Typography)`
   color: var(--text-light-secondary, rgba(250, 250, 250, 0.7));
   text-align: center;
-  font-family: Inter;
+  
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -110,7 +110,7 @@ export const Balance = styled(Flex)`
   color: #fff;
 
   text-align: center;
-  font-family: Inter;
+  
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -137,7 +137,7 @@ export const BalanceActionButton = styled(Box)`
 
   color: var(--text-light-primary, #fafafa);
   text-align: center;
-  font-family: Inter;
+  
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -167,7 +167,7 @@ export const CurrencyListWrapper = styled(Box)`
 
   .heading {
     color: var(--text-light-tertiary, rgba(250, 250, 250, 0.3));
-    font-family: Inter;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -220,7 +220,7 @@ export const CurrencyCardWrapper = styled(Box)`
   }
   .currency-index {
     color: var(--surface-neutral-dark-surface-600, #41413e);
-    font-family: Inter;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -229,7 +229,7 @@ export const CurrencyCardWrapper = styled(Box)`
   .pol {
     color: var(--text-light-tertiary, rgba(250, 250, 250, 0.3));
     text-align: center;
-    font-family: Inter;
+    
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -238,7 +238,7 @@ export const CurrencyCardWrapper = styled(Box)`
   .balance {
     color: var(--text-light-primary, #fafafa);
     text-align: center;
-    font-family: Inter;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -247,7 +247,7 @@ export const CurrencyCardWrapper = styled(Box)`
   .currency {
     color: #fafafa;
 
-    font-family: Inter;
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -257,7 +257,7 @@ export const CurrencyCardWrapper = styled(Box)`
     color: #fff;
 
     text-align: center;
-    font-family: Inter;
+    
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -320,7 +320,7 @@ export const UserInfoWrapper = styled(Flex)`
   .username {
     color: rgba(250, 250, 250, 0.8);
     text-align: center;
-    font-family: Inter;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -374,7 +374,7 @@ export const Tab = styled(Flex)`
   color: #fff;
 
   text-align: center;
-  font-family: Inter;
+  
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

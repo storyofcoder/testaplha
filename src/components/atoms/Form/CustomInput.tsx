@@ -20,7 +20,7 @@ const Input = styled.input`
 
   font-feature-settings: 'clig' off, 'liga' off;
   /* Body/Regular/Bold */
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: 'Neue Haas Grotesk Display Pro', 'Hanken Grotesk', 'Poppins', Montserrat, Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

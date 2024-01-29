@@ -2,7 +2,6 @@ import { Typography } from 'antd'
 import { Box, Flex } from 'components/atoms/StyledSystem'
 import styled from 'styled-components'
 
-
 export const PageWrapper = styled(Box)`
   justify-content: center;
   display: flex;
@@ -50,11 +49,11 @@ export const AuthButton = styled(Box)`
   border-radius: 16px;
   border: 1px solid var(--border-light-primary, rgba(250, 250, 250, 0.16));
   text-align: center;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 19.2px */
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
 
   cursor: pointer;
   :hover {
@@ -65,7 +64,7 @@ line-height: 120%; /* 19.2px */
 
 export const AuthButtonGoogle = styled(AuthButton)`
   background: var(--Button-gradient, linear-gradient(111deg, #9f8bff 0%, #7053ff 100%));
-  color: var(--text-light-primary, #FAFAFA);
+  color: var(--text-light-primary, #fafafa);
   :hover {
     border: 2.727px solid var(--Button-gradient, #9f8bff);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
@@ -102,7 +101,7 @@ export const PoweredByWrapper = styled(Flex)`
     transition: background-color 0.1s ease-in-out;
   }
   color: #808080;
-  font-family: Inter;
+
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -114,7 +113,7 @@ export const CreateAccountWrapper = styled(Box)`
 
 export const CreateTitle = styled(Typography)`
   color: var(--text-light-secondary, rgba(250, 250, 250, 0.7));
-  font-family: Inter;
+
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -130,7 +129,7 @@ export const UsernameSuffixText = styled(Typography)`
   color: var(--text-light-tertiary, rgba(250, 250, 250, 0.3));
   text-align: right;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: 'Neue Haas Grotesk Display Pro', 'Hanken Grotesk', 'Poppins', Montserrat, Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -145,7 +144,7 @@ export const UsernameSubmit = styled(AuthButtonGoogle)`
   font-feature-settings: 'clig' off, 'liga' off;
 
   /* Body/Regular/Bold */
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: 'Neue Haas Grotesk Display Pro', 'Hanken Grotesk', 'Poppins', Montserrat, Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -158,7 +157,7 @@ export const RecommendationWrapper = styled(Box)`
 
 export const RecommendationTitle = styled(Typography)`
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
+
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -175,25 +174,23 @@ export const RecommendationValueWrapper = styled(Flex)`
 export const RecommendationValue = styled(Box)`
   border-radius: 20px;
   border: 1px solid var(--border-light-secondary, rgba(250, 250, 250, 0.08));
-  background: ${(p) => (p.active ? "var(--surface-neutral-light-surface-125, #F2F2F2)" : "rgba(128, 128, 128, 0.05)")};
+  background: ${(p) => (p.active ? 'var(--surface-neutral-light-surface-125, #F2F2F2)' : 'rgba(128, 128, 128, 0.05)')};
   display: flex;
   padding: 12px 16px;
   align-items: center;
 
-  color: ${(p) => (p.active ? "#101010" : "var(--text-light-secondary, rgba(250, 250, 250, 0.7))")};
+  color: ${(p) => (p.active ? '#101010' : 'var(--text-light-secondary, rgba(250, 250, 250, 0.7))')};
   text-align: center;
   leading-trim: both;
 
   text-edge: cap;
-  font-family: Inter;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 16.8px */
   mix-blend-mode: difference;
   cursor: pointer;
-
-  
 `
 
 export const InfoWrapper = styled(Flex)`
@@ -240,7 +237,7 @@ export const InfoWrapper = styled(Flex)`
 
 export const InfoText = styled(Typography)`
   color: var(--text-light-tertiary, rgba(250, 250, 250, 0.3));
-  font-family: Inter;
+
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -251,7 +248,7 @@ export const InfoText = styled(Typography)`
 export const Heading = styled(Box)`
   color: var(--text-light-secondary, rgba(250, 250, 250, 0.7));
   text-align: center;
-  font-family: Inter;
+
   font-size: 22px;
   font-style: normal;
   font-weight: 400;

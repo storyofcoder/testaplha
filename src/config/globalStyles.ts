@@ -1,6 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+
+  @font-face {
+    font-family: "Neue Haas Grotesk Display Pro";
+    src: url("./assets/fonts/NeueHaasDisplayRoman.ttf");
+  }
+
   /* prettier-ignore */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -171,15 +177,5 @@ export default createGlobalStyle`
     0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
-  }
-
-  @font-face {
-    font-family: "Neue Haas Grotesk Display Pro";
-    src: url("./assets/fonts/NeueHaasDisplayRoman.ttf");
-  }
-
-  @font-face {
-    font-family: "Montserrat";
-    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
   }
 `
